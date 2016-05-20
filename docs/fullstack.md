@@ -39,6 +39,6 @@ SELECT message FROM Messages WHERE user_from_id = ? AND user_to_id = ? ORDER BY 
 And at some point (let's say we start have a 10+ mil users) this query is starting to lag heavily. How can we fix this? Why is this happening?
 
 ## 3. Security 
-3.1 Can you tell about: XSS, CSRF, SQL injection, man-in-the-middle. In brief.
+3.1 Can you tell about: XSS, SQL injection, man-in-the-middle. In brief.
 
 3.2 What for CSRF-token are used?
