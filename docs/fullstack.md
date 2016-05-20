@@ -16,7 +16,7 @@ if (!$information->isValid()) {
 
 If not please provide some other code that will do this as well. You can use someting like pseudo-code for it, just like in example.
 
-1.2 You have a atomic resource (API in e.g.) that will block you if you send to it more that one connection. What a possible solutions do you have to crawl this resourse do you have? 
+1.2 You have an atomic resource (API in e.g.) that will block you if you request it with more that one connection. What are possible solutions do you have to crawl this resource?
 
 1.3 What is public/private/protected in PHP? Describe a difference between them.
 
