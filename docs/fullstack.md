@@ -27,7 +27,7 @@ If not please provide some other code that will do this as well. You can use som
 
 2.2 Let's say we have a slow query how can we know what indexes it uses?
 
-2.3 Let's imagine we have a two databases:
+2.3 Let's imagine we have a two tables:
 + **User** (id, name)
 + **Messages** (user_from_id, user_to_id, message, time)
 
