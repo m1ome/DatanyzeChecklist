@@ -4,10 +4,10 @@
 1.1 Let's imagine that you have some sort of **cached** information, will it be enough this code to re-validate it:
 
 ```php
-$infromation = Cache::get('user');
-if (!$infromation->isValid()) {
+$information = Cache::get('user');
+if (!$information->isValid()) {
     $information = Database::get('user');
-    Cache::set('user', $infromation);
+    Cache::set('user', $information);
     return $information;
 } else {
     return $information;
